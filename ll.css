@@ -1,0 +1,69 @@
+body {
+    border: solid 1px;
+    border-color: rgb(236, 138, 212);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 34, 37);
+    background-color: white;
+    margin: 50px 250px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    color: rgb(231, 6, 138);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(243, 120, 192);
+    background-color: rgb(241, 158, 214);
+    font-size: large;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    float: right;
+    border: 2px solid rgb(235, 129, 58);
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(40, 57, 214);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.5em;
+    background-color: rgb(241, 206, 241);
+    padding: 10px;
+}
+
+img {
+    width: 30px;
+}
+
+.line-mix {
+    border: 0;
+    height: 6px;
+    background-image: linear-gradient(to right, rgb(236, 138, 212), rgb(235, 129, 58), rgb(40, 57, 214));
+    margin-top: 40px;
+}
